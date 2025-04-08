@@ -28,10 +28,41 @@ button {
 }
 
 #list {
-  margin: 10px;
+  margin-left: 0px;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  
+
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  list-style: none;
+  width: 100px;
+  padding-left: 0px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 0px;
+  font-size: .8rem;
+  padding: 5px;
+}
+#urgency-select > option:nth-child(2) {
+  background-color:red;
+
+}
+#urgency-select > option:nth-child(3) {
+  background-color:yellow;
+  
+}
+#urgency-select > option:nth-child(4) {
+  background-color:green;
+  
 }
